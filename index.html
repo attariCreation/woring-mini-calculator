@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Calculator | abdul hannan</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Mini working Calculator | abdul hannan</h1>
+
+   <section>
+    <h2>How to use it ? </h2>
+    <p>insert the mathematical equation you want to calculate and get the result. And double-click to empty the input field </p>
+    <input type="text" placeholder="wanna calculate?" >
+
+    <button type="button" id="clear" ondblclick="clearInput()" onclick="clearDisplay()">clear</button>
+
+    <button type="button"  id="caculate" onclick="displayValue(), calculate()">answer</button>
+
+
+    <span id="display">
+        0
+    </span>
+   </section>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
